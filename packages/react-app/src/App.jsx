@@ -55,7 +55,7 @@ const { ethers } = require("ethers");
 */
 
 /// 📡 What chain are your contracts deployed to?
-const targetNetwork = NETWORKS.localhost; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
+const targetNetwork = NETWORKS.rinkeby; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
 
 // 😬 Sorry for all the console logging
 const DEBUG = true;
@@ -681,7 +681,7 @@ function App(props) {
               }}
               to="/"
             >
-              YourCollectibles
+              Your NFT Collectibles
             </Link>
           </Menu.Item>
           <Menu.Item key="/transfers">
@@ -691,7 +691,7 @@ function App(props) {
               }}
               to="/transfers"
             >
-              Transfers
+              Transfers NFT
             </Link>
           </Menu.Item>
           <Menu.Item key="/ipfsup">
